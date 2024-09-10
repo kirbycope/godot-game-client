@@ -1,2 +1,2 @@
-# godot-games-client
+# godot-game-client
 godot-game-client
