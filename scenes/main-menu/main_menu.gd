@@ -34,9 +34,11 @@ func _ready() -> void:
 		for i in range(len(picks)):
 
 			# Define the "thumbnail" path
-			var texture_path = "Main/Picks/Pick" + str(i) + "/Pick"+ str(i) + "Button/Thumbnail"
-			# Set the "thumbnail" texture
-			get_node(texture_path).texture = load(picks[i].thumb)
+			var thumbnail_button_path = "Main/Picks/Pick" + str(i) + "/Pick"+ str(i) + "Button/Thumbnail"
+			# Get the "thumbnail" url
+			var thumb_url = picks[i].thumb
+			# Download the "thumbnail" (and apply it)
+			download_thumbnail(picks[i].pack, thumbnail_button_path, thumb_url)
 
 			# Define the "title" path
 			var title_path = "Main/Picks/Pick" + str(i) + "/Title"
