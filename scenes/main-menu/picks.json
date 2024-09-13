@@ -6,16 +6,16 @@
 		"thumb": "https://raw.githubusercontent.com/kirbycope/godot-4.3-sandbox-3d/main/scenes/sandbox/thumb.png",
 		"pack": "godot-4.3-sandbox-3d",
 		"scene": "res://scenes/sandbox/main.tscn",
-		"url": "https://github.com/kirbycope/godot-4.3-sandbox-3d/raw/main/ci/godot-4.3-sandbox-3d.pck"
+		"url": "https://raw.githubusercontent.com/kirbycope/godot-4.3-sandbox-3d/main/ci/godot-4.3-sandbox-3d.pck"
 	},
-    {
+	{
 		"title": "Godot Craft",
 		"short": "Minecraft remade in the Godot Engine.",
 		"long": "To be implemented...",
 		"thumb": "https://raw.githubusercontent.com/kirbycope/godot-4.3-sandbox-3d/main/scenes/godot-craft/thumb.png",
 		"pack": "godot-minecraft",
 		"scene": "res://scenes/minecraft/main.tscn",
-		"url": "https://github.com/kirbycope/godot-minecraft/raw/main/ci/godot-minecraft.pck"
+		"url": "https://raw.githubusercontent.com/kirbycope/godot-4.3-sandbox-3d/main/ci/godot-4.3-sandbox-3d.pck"
 	},
 
 	{
@@ -25,6 +25,6 @@
 		"thumb": "https://raw.githubusercontent.com/kirbycope/godot-4.3-sandbox-3d/main/scenes/smo/thumb.png",
 		"pack": "super-mario-odyssey",
 		"scene": "res://scenes/smo/hat-kingdom.tscn",
-		"url": "https://github.com/kirbycope/godot-4.3-sandbox-3d/raw/main/ci/super-mario-odyssey.pck"
+		"url": "https://raw.githubusercontent.com/kirbycope/godot-4.3-sandbox-3d/main/ci/godot-4.3-sandbox-3d.pck"
 	}
 ]

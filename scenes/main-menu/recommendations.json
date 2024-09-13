@@ -6,7 +6,7 @@
 		"thumb": "https://raw.githubusercontent.com/kirbycope/godot-super-mario-bros/main/ci/thumbnail.png",
 		"pack": "godot-super-mario-bros",
 		"scene": "res://scenes/super-mario-bros/main.tscn",
-		"url": "https://github.com/kirbycope/godot-super-mario-bros/raw/main/ci/godot-super-mario-bros.pck"
+		"url": "https://raw.githubusercontent.com/kirbycope/godot-super-mario-bros/main/ci/godot-super-mario-bros.pck"
 	},
 	{
 		"title": "Minecraft: Godot Edition (MCGE)",
@@ -15,6 +15,6 @@
 		"thumb": "https://raw.githubusercontent.com/kirbycope/godot-minecraft/main/ci/thumbnail.png",
 		"pack": "godot-minecraft",
 		"scene": "res://scenes/minecraft/main.tscn",
-		"url": "https://github.com/kirbycope/godot-minecraft/raw/main/ci/godot-minecraft.pck"
+		"url": "https://raw.githubusercontent.com/kirbycope/godot-minecraft/main/ci/godot-minecraft.pck"
 	}
 ]
