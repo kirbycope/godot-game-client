@@ -1,5 +1,5 @@
 # godot-game-client
-godot-game-client
+Godot Game Client allows users to download and play multiple Godot applications using a single application. The client works on Desktop, Mobile, and Web using the OpenGL compatability mode.
 
 ## Working with Packs
 This "Client" can import Packs (`.pck`) from remote resources. They are cataloged in [scenes/main-menu/recommendations.json](scenes/main-menu/recommendations.json). To avoid file name conflicts with the Client and other packs, the Pack's scenes should be in a sub-folder with the Pack's name. E.g., `res://scenes/my_pack`.
@@ -29,8 +29,10 @@ This "Client" can import Packs (`.pck`) from remote resources. They are cataloge
 	- If the user clicks the thumbnail, the "pack" will download
 	- Once the download completes, the "scene" will be loaded
 
-## Working on this project
-Godot Remote Debug is great or testing on your `localhost`. This section will enable testing using devices on the same wifi network.
+---
+
+## Run Application on Remote Devices Using Wifi
+Godot Remote Debug is great for testing on your `localhost`. This section will enable testing using devices on the same wifi network.
 
 ### Install and Enable Live Server
 [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) allows you to host web pages, locally, from VSCode.
