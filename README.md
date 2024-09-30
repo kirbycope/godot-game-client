@@ -1,3 +1,5 @@
+![Thumbnail](/ci/thumbnail.png)
+
 # godot-game-client
 Godot Game Client allows users to download and play multiple Godot applications using a single application. The client works on Desktop, Mobile, and Web using the OpenGL compatability mode.
 
@@ -9,8 +11,12 @@ This "Client" can import Packs (`.pck`) from remote resources. They are cataloge
 	1. Prevents Godot from importing files contained in this folder
 1. A new file named `ci/export-pack.ps1`
 	1. Paste in the contents of [export-pack.ps1](ci/export-pack.ps1)
+	1. Use this to pack games using PowerShell
+1. A new file named `ci/export-pack.sh`
+	1. Paste in the contents of [export-pack.sh](ci/export-pack.sh)
+	1. Use this to pack games using Bash
 1. A new file named `ci/thumbnail.png`
-	1. Use the [placeholder](ci/286x160.png)
+	1. Use the [placeholder](assets/textures/placeholder-co/286x160.png)
 1. Run the script and commit
 	The pack and thumbnail should be publically available
 
