@@ -1,5 +1,14 @@
 [
 	{
+		"title": "Alley Cat",
+		"short": "Freddy the Cat is king of the alley",
+		"long": "To be implemented...",
+		"thumb": "https://raw.githubusercontent.com/kirbycope/godot-alley-cat/main/ci/thumbnail.png",
+		"pack": "godot-alley-cat",
+		"scene": "res://scenes/alley-cat/main.tscn",
+		"url": "https://raw.githubusercontent.com/kirbycope/godot-alley-cat/main/ci/godot-alley-cat.pck"
+	},
+	{
 		"title": "Super Mario Bros.",
 		"short": "Do you have what it takes to save the Mushroom Princess?",
 		"long": "To be implemented...",
