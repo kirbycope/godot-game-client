@@ -7,23 +7,29 @@ extends Node
 ## having to pass them around manually.
 ## @tutorial: https://docs.godotengine.org/en/stable/tutorials/scripting/singletons_autoload.html
 
-# The Client scene.
+## The Client scene.
 var client:
 	get:
 		return get_node_by_path_name("root/Client")
 
-# Flag for if the app was opened in Debug mode.
+## Flag for if the app was opened in Debug mode.
 var debug_mode: bool = OS.is_debug_build()
 
-# Flag for if the game is Paused.
+## Flag for if the game has a fixed camera.
+var fixed_camera: bool = false
+
+## Flag for if the game is Paused.
 var game_paused: bool = false
 
-# The Main scene.
+## The Main scene.
 var main:
 	get:
 		return get_node_by_path_name("root/Main")
 
-# The current time in RFC 3339 format.
+## Flag for if the player's movement is locked
+var movement_locked: bool = false
+
+## The current time in RFC 3339 format.
 var time_stamp_utc: bool = true
 var time_stamp: String:
 	get:
@@ -37,6 +43,14 @@ func get_node_by_path_name(concatenated_name: String):
 	for child in children:
 		if child.get_path().get_concatenated_names() == concatenated_name:
 			return child
+
+
+## Get the "Player3D" or "Player2D".
+func get_player():
+	var player = get_parent().find_child("Player3D", true, false)
+	if player == null:
+		player = get_parent().find_child("Player2D", true, false)
+	return player
 
 
 ## Plays the given audio file using an ephemeral audio player.
