@@ -1,29 +1,20 @@
 [
 	{
-		"title": "Godot 4.3 Sandbox 3D",
-		"short": "Used to test different player mechanics.",
+		"title": "Godot 2D Player Controller (Demo)",
+		"short": "A 2D Player Controller for the Godot Game Engine.",
 		"long": "To be implemented...",
-		"thumb": "https://raw.githubusercontent.com/kirbycope/godot-4.3-sandbox-3d/main/scenes/sandbox/thumb.png",
-		"pack": "godot-4.3-sandbox-3d",
-		"scene": "res://scenes/sandbox/main.tscn",
-		"url": "https://raw.githubusercontent.com/kirbycope/godot-4.3-sandbox-3d/main/ci/godot-4.3-sandbox-3d.pck"
+		"thumb": "https://raw.githubusercontent.com/kirbycope/godot-2d-player-controller/main/ci/thumbnail.png",
+		"pack": "godot-2d-player-controller",
+		"scene": "res://scenes/main.tscn",
+		"url": "https://raw.githubusercontent.com/kirbycope/godot-2d-player-controller/main/ci/godot-2d-player-controller.pck"
 	},
 	{
-		"title": "Godot Craft",
-		"short": "Minecraft remade in the Godot Engine.",
+		"title": "Godot 3D Player Controller (Demo)",
+		"short": "A 3D Player Controller for the Godot Game Engine.",
 		"long": "To be implemented...",
-		"thumb": "https://raw.githubusercontent.com/kirbycope/godot-4.3-sandbox-3d/main/scenes/godot-craft/thumb.png",
-		"pack": "godot-minecraft",
-		"scene": "res://scenes/minecraft/main.tscn",
-		"url": "https://raw.githubusercontent.com/kirbycope/godot-4.3-sandbox-3d/main/ci/godot-4.3-sandbox-3d.pck"
-	},
-	{
-		"title": "Super Mario Odyssey",
-		"short": "Mario's on a Globe Trotting-Adventure!",
-		"long": "Explore incredible places far from the Mushroom Kingdom as you join Mario and his new ally Cappy on a massive, globe-trotting 3D adventure. Use amazing new abilities—like the power to capture and control objects, animals, and enemies—to collect Power Moons so you can power up the Odyssey airship and save Princess Peach from Bowser’s wedding plans!",
-		"thumb": "https://raw.githubusercontent.com/kirbycope/godot-4.3-sandbox-3d/main/scenes/smo/thumb.png",
-		"pack": "super-mario-odyssey",
-		"scene": "res://scenes/smo/hat-kingdom.tscn",
-		"url": "https://raw.githubusercontent.com/kirbycope/godot-4.3-sandbox-3d/main/ci/godot-4.3-sandbox-3d.pck"
+		"thumb": "https://raw.githubusercontent.com/kirbycope/godot-3d-player-controller/main/ci/thumbnail.png",
+		"pack": "godot-3d-player-controller",
+		"scene": "res://scenes/main.tscn",
+		"url": "https://raw.githubusercontent.com/kirbycope/godot-3d-player-controller/main/ci/godot-3d-player-controller.pck"
 	}
 ]

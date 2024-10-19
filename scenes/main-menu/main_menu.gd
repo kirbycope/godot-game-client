@@ -161,8 +161,9 @@ func _on_godot_engine_button_pressed() -> void:
 ## Handle the Pick thumbnail _pressed_.
 func _on_pick_button_pressed(index: int):
 
-	# Load the scene
-	Globals.client.load_scene(picks[index].scene)
+	# Download the resource pack (`.pck`)
+	download_pack(picks[index].pack, picks[index].scene, picks[index].url)
+
 
 
 ## Handle the Recommendation thumbnail _pressed_.
