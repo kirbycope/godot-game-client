@@ -19,7 +19,8 @@ func _ready() -> void:
 	if Globals.debug_mode: print(Globals.time_stamp, " [DEBUG] '", get_script().resource_path.get_file().get_basename(), "' scene loaded.")
 
 	# Set the username
-	username.text = OS.get_environment("USERNAME")
+	var name = OS.get_environment("USERNAME")
+	if name != null: username.text = name
 
 	# Check if the "Picks" haven't been populated
 	if picks == null:

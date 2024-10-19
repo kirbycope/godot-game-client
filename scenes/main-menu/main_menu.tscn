@@ -1,4 +1,4 @@
-[gd_scene load_steps=12 format=3 uid="uid://bwp0ji1quvpcl"]
+[gd_scene load_steps=13 format=3 uid="uid://bwp0ji1quvpcl"]
 
 [ext_resource type="Script" path="res://scenes/main-menu/main_menu.gd" id="1_ndtva"]
 [ext_resource type="Texture2D" uid="uid://bqx3yb87i23me" path="res://assets/textures/Kenney/2D assets/Game Icons/PNG/Black/1x/home.png" id="3_u045q"]
@@ -10,6 +10,7 @@
 [ext_resource type="Texture2D" uid="uid://qrcgelu1f6dv" path="res://assets/textures/Kenney/2D assets/Game Icons/PNG/Black/1x/cart.png" id="9_wbk0t"]
 [ext_resource type="Texture2D" uid="uid://cms0bleprcw3u" path="res://assets/textures/Kenney/2D assets/Game Icons/PNG/Black/1x/warning.png" id="10_85gxt"]
 [ext_resource type="Texture2D" uid="uid://bfm8hc6gmakts" path="res://assets/textures/Kenney/2D assets/Game Icons/PNG/Black/2x/multiplayer.png" id="11_xu7fi"]
+[ext_resource type="FontFile" uid="uid://byxmqtjjjkfdg" path="res://assets/fonts/Segoe-UI-Symbol.ttf" id="12_18r0k"]
 [ext_resource type="Texture2D" uid="uid://6xe8ha8x8nyl" path="res://assets/textures/placeholder-co/286x160.png" id="12_ftaka"]
 
 [node name="MainMenu" type="Control"]
@@ -276,6 +277,7 @@ offset_top = 4.0
 offset_right = 754.0
 offset_bottom = 35.0
 theme_override_colors/font_placeholder_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("12_18r0k")
 theme_override_font_sizes/font_size = 14
 placeholder_text = "🔍 Search"
 
@@ -671,6 +673,7 @@ offset_top = 184.0
 offset_right = 286.0
 offset_bottom = 224.0
 theme_override_colors/default_color = Color(0.501406, 0.501407, 0.501405, 1)
+theme_override_fonts/normal_font = ExtResource("12_18r0k")
 theme_override_font_sizes/normal_font_size = 10
 text = "👍96% Rating"
 scroll_active = false
@@ -713,6 +716,7 @@ offset_top = 184.0
 offset_right = 286.0
 offset_bottom = 224.0
 theme_override_colors/default_color = Color(0.501406, 0.501407, 0.501405, 1)
+theme_override_fonts/normal_font = ExtResource("12_18r0k")
 theme_override_font_sizes/normal_font_size = 10
 text = "👍96% Rating"
 scroll_active = false
@@ -755,6 +759,7 @@ offset_top = 184.0
 offset_right = 286.0
 offset_bottom = 224.0
 theme_override_colors/default_color = Color(0.501406, 0.501407, 0.501405, 1)
+theme_override_fonts/normal_font = ExtResource("12_18r0k")
 theme_override_font_sizes/normal_font_size = 10
 text = "👍96% Rating"
 scroll_active = false
@@ -797,6 +802,7 @@ offset_top = 184.0
 offset_right = 286.0
 offset_bottom = 224.0
 theme_override_colors/default_color = Color(0.501406, 0.501407, 0.501405, 1)
+theme_override_fonts/normal_font = ExtResource("12_18r0k")
 theme_override_font_sizes/normal_font_size = 10
 text = "👍96% Rating"
 scroll_active = false
