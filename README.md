@@ -35,7 +35,6 @@ This "Client" can import Packs (`.pck`) from remote resources. They are cataloge
 	- If the user clicks the thumbnail, the "pack" will download
 	- Once the download completes, the "scene" will be loaded
 
-
 <details>
 <summary>Using Addons</summary>
 
