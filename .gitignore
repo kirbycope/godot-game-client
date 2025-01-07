@@ -3,3 +3,4 @@
 /android/
 localhost.key
 localhost.pem
+.DS_Store
