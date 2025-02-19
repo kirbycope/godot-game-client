@@ -1,20 +1,17 @@
 ![Thumbnail](/ci/thumbnail.png)
 
 # godot-game-client
-Godot Game Client allows users to download and play multiple Godot applications using a single application. The client works on Desktop, Mobile, and Web using the OpenGL compatability mode.
+Godot Game Client allows users to download and play multiple Godot applications using a single application. The client works on Desktop, Mobile, and Web using the OpenGL compatibility mode.
 
 ## Working with Packs
 This "Client" can import Packs (`.pck`) from remote resources. They are cataloged in [scenes/main-menu/recommendations.json](scenes/main-menu/recommendations.json). To avoid file name conflicts with the Client and other packs, the Pack's scenes should be in a sub-folder with the Pack's name. E.g., `res://scenes/my_pack`.
 
 ### Setup Remote Repo
-1. An new, empty file named `ci/.gdignore`
+1. A new, empty file named `ci/.gdignore`
 	1. Prevents Godot from importing files contained in this folder
 1. A new file named `ci/export-pack.ps1`
 	1. Paste in the contents of [export-pack.ps1](ci/export-pack.ps1)
 	1. Use this to pack games using PowerShell
-1. A new file named `ci/export-pack.sh`
-	1. Paste in the contents of [export-pack.sh](ci/export-pack.sh)
-	1. Use this to pack games using Bash
 1. A new file named `ci/thumbnail.png`
 	1. Use the [placeholder](assets/textures/placeholder-co/286x160.png)
 1. Run the script and commit
@@ -44,7 +41,7 @@ This "Client" can import Packs (`.pck`) from remote resources. They are cataloge
 1. Open your project in VS Code
 1. Open the "Git Bash" terminal
 1. Run `bash ci/install-3d-player-controller.sh`
-	- This script will download the [3d_player_controller](/addons/3d_player_controller) folder from _this_ repo and then cleanup the `.git` files/folders.
+	- This script will download the [3d_player_controller](/addons/3d_player_controller) folder from _this_ repo and then clean up the `.git` files/folders.
 
 </details>
 
@@ -101,7 +98,7 @@ This game can be [exported](https://docs.godotengine.org/en/stable/tutorials/exp
 ### Running/Hosting the App Locally
 1. In VSCode's Explorer right-click on [docs/index.html](docs/index.html) and select "Open with Live Server"
 1. Then you visit [https://127.0.0.1:5500/docs/index.html](https://127.0.0.1:5500/docs/index.html)
-1. To get your "Host Local IP Address", use terminal to run:
+1. To get your "Host Local IP Address", use the terminal to run:
 	- [Windows] `ipconfig`
 	- [MacOS] `ipconfig getifaddr en0`
 1. On a device connected to the same wifi as the host, navigate to `https://{host.local.ip.address}:5500/docs/index.html`
@@ -113,7 +110,7 @@ This game can be [exported](https://docs.godotengine.org/en/stable/tutorials/exp
 <summary>Access localhost from Devices on Same Wifi Network</summary>
 
 ### Generate HTTPS Certificate
-"Secure Context - Check web server configuration (use HTTPS)" The following features required to run Godot projects on the Web. Do the following to setup
+"Secure Context - Check web server configuration (use HTTPS)" The following features are required to run Godot projects on the Web. Do the following to setup
 1. Download and install the [ssl binary](https://wiki.openssl.org/index.php/Binaries)
 	- [Windows] Use [OpenSSL for Windows](https://slproweb.com/products/Win32OpenSSL.html)
 	- [MacOS] Use [Homebrew](https://brew.sh/) by running, `brew install openssl@3`
